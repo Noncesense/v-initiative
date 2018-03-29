@@ -1,0 +1,242 @@
+.container-fluid {
+  width:100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.container {
+  width:70%;
+}
+
+.navbar {
+  height: 50px;
+  background-color: rgba(187,229,250,0.2);
+  width:100%;
+  margin:0px;
+  position: fixed;
+  z-index: 999;
+}
+
+
+.anchor {
+  color: rgb(48,151,222);
+  margin-top:5px;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+.logo-col img {
+  width: 25px;
+  margin-top: 10px;
+}
+
+.logo-col {
+  padding: 0px
+}
+
+#banner {
+  position: relative;
+  display: flex;
+  padding-top:70px;
+  padding-bottom: 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  left:0;
+  color:white;
+}
+
+
+.landing-background {
+  background-image: url('./images/Header_Image.png');
+  clip: rect(0, 200px, 200px, 0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.navbar h5 {
+  text-align: center;
+}
+
+.title {
+  width:70%;
+}
+
+.title h3 {
+  margin-top:0px;
+}
+
+.title button {
+  color: #3097de;
+}
+
+.what {
+  background-color: #f3f9fc;
+  color:#8b9ea9;
+}
+
+.section {
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+
+.icon-point img {
+  width:100px;
+  margin:auto;
+  display:block;
+}
+
+.icon-point {
+  align-items: center;
+}
+
+.icon-point h4 {
+  text-align: center;
+  font-weight:600;
+}
+
+.icon-point p {
+  text-align: center;
+}
+
+.description h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.icon-points {
+  margin-top:50px;
+}
+
+.why {
+  background-color: #637486;
+  color: #8b9ea9;
+}
+.why img {
+  width:100%;
+}
+
+.how {
+  background-color: #ccdbe3;
+  color: #8b9ea9;
+}
+.maze img {
+  width:100%;
+}
+
+.merkle {
+  background-color: #d4e4ec;
+  color: #9fafb9;
+}
+
+.merkle img {
+  width:75%;
+}
+
+.zk {
+  background-color: #ccdbe3;
+  color: #9fafb9;
+}
+
+.zk img {
+  width:100%;
+}
+
+.ip {
+  background-color: #d4e4ec;
+  color: #9fafb9;
+}
+
+.ip img {
+  width: 100%;
+}
+
+.who {
+  color: #8b9eaa;
+}
+
+.who img {
+  width: 50%;
+}
+
+.heart {
+  text-align: center;
+}
+
+.help {
+  background-color: #fafbfc;
+  color: #8b9ea9;
+}
+
+
+form {
+  width: 60%;
+  margin:auto;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.form-group {
+  margin: 0px
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
+.submit {
+  width:100%;
+}
+
+.spread {
+  background-color: #637486;
+  text-align: center;
+  color: #8b9ea9;
+}
+
+.spread h4 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background-color: #d4e4ec;
+  color: #5f7988;
+  text-align: left;
+}
+
+.contact div.container {
+  margin-left: 25%;
+}
+
+.contact form {
+  margin: 0px;
+}
+
+.footer-background {
+  background-image: url('./images/Header_Image.png');
+  clip: rect(0, 200px, 200px, 0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer button{
+  color: #3097de;
+}
+
+.footer-buttons {
+  text-align: right;
+}
