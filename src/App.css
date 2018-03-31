@@ -5,7 +5,7 @@
 }
 
 .container {
-  width:70%;
+  width:50%;
 }
 
 .navbar {
@@ -49,6 +49,10 @@ a, a:hover, a:active, a:visited, a:focus {
   color:white;
 }
 
+#banner .title {
+  width: 50%;
+}
+
 
 .landing-background {
   background-image: url('./images/Header_Image.png');
@@ -89,7 +93,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .icon-point img {
-  width:100px;
+  width:70px;
   margin:auto;
   display:block;
 }
@@ -98,22 +102,42 @@ a, a:hover, a:active, a:visited, a:focus {
   align-items: center;
 }
 
-.icon-point h4 {
+.icon-point h4{
   text-align: center;
-  font-weight:600;
+  font-weight: 500  !important;
+  font-size: 10px  !important;
 }
 
 .icon-point p {
   text-align: center;
+  font-size: 8px !important;
 }
 
-.description h3 {
+.bottom-row {
+  margin-top: 50px;
+}
+
+.section h3 {
   text-align: center;
   text-decoration: underline;
+  text-underline-position: under;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section h4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section p {
+  font-size:12px;
+  font-weight: 300;
 }
 
 .icon-points {
-  margin-top:50px;
+  margin-top:60px;
 }
 
 .why {

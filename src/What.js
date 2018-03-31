@@ -6,12 +6,12 @@ class What extends Component {
       <div className='what'>
         <div className='container'>
           <div className='row section'>
-            <div className='col-md-6 description'>
-              <h3>WHAT</h3>
+            <div className='col-md-5 description'>
+              <h3>What</h3>
               <h4>The V initiative is about to building a better future.</h4>
               <p>At the V initiative we are pooling our knowldege on network based systems and security to tackle online digital voting for the masses.<br /><br />We are working on new open source security protocals that will help us move democracy into the digital age.<br /><br />We are currently working on these solutons with voter associations and the open source community to create transparency around the technology.<br /><br/>Our goal is to be able to distribute 100% fraud proof 100% anonymous digital votes so that we can re-imagine the way democarcy works in a digital age, where citizens can take a more active roll in the political process and build in further checks and balances to rid political coruption from modern society.</p>
             </div>
-            <div className='col-md-6 icon-points'>
+            <div className='col-md-7 icon-points'>
               <div className='row'>
                 <div className='col-md-6 icon-point'>
                   <img src={require('./images/1.png')} />
@@ -24,7 +24,7 @@ class What extends Component {
                   <p>Developing new authentication and cryptographic concepts to eliminate fraud, which riddles our current offline voting systems.</p>
                 </div>
               </div>
-              <div className='row'>
+              <div className='row bottom-row'>
                 <div className='col-md-6 icon-point'>
                   <img src={require('./images/3.png')}/>
                   <h4>Open Source</h4>

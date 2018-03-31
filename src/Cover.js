@@ -7,7 +7,7 @@ class Cover extends Component {
         <div className="title">
           <h1>Welcome to the V Initiative.</h1>
           <h3><strong>Building tomorrow's secure digital democracy.</strong></h3>
-          <button className="btn btn-defualt">Learn More</button>
+          <button className="btn btn-defualt"><a href='#sectionWhat'>Learn More</a></button>
         </div>
       </div>
       )
