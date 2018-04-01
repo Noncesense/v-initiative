@@ -153,7 +153,12 @@ a, a:hover, a:active, a:visited, a:focus {
   color: #8b9ea9;
 }
 .maze img {
-  width:100%;
+  width:90%;
+}
+
+.maze {
+  text-align: center;
+  margin-top: 2%;
 }
 
 .merkle {
@@ -162,7 +167,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .merkle img {
-  width:75%;
+  width:85%;
 }
 
 .zk {
@@ -171,7 +176,12 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .zk img {
-  width:100%;
+  width:80%;
+  margin-top: 18%;
+}
+
+.zk-maze {
+  text-align: center;
 }
 
 .ip {
@@ -180,7 +190,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .ip img {
-  width: 100%;
+  width: 90%;
 }
 
 .who {
@@ -188,7 +198,8 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .who img {
-  width: 50%;
+  width: 55%;
+  margin-top: 15%;
 }
 
 .heart {
