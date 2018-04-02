@@ -333,7 +333,7 @@ input#name {
     background-image: url('./images/Header_Image.png');
     clip: rect(0, 200px, 200px, 0);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
