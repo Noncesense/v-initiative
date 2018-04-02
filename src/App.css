@@ -65,6 +65,23 @@ a, a:hover, a:active, a:visited, a:focus {
   background-size: cover;
 }
 
+div.title {
+  margin-left: 30px;
+}
+
+.title h1 {
+  font-size: 46px;
+  font-weight: 300;
+}
+
+.title h3 {
+  font-size:18px;
+  font-weight: 500;
+}
+
+.title button {
+  font-size: 10px;
+}
 
 .navbar h5 {
   text-align: center;
@@ -145,7 +162,10 @@ a, a:hover, a:active, a:visited, a:focus {
   color: #8b9ea9;
 }
 .why img {
-  width:100%;
+  width:80%;
+}
+.description-right {
+  margin-top:60px;
 }
 
 .how {
@@ -213,10 +233,27 @@ a, a:hover, a:active, a:visited, a:focus {
 
 
 form {
-  width: 60%;
+  width: 80%;
   margin:auto;
   margin-top: 7%;
   margin-bottom: 7%;
+}
+
+.submit {
+  border: 1px solid orange;
+  color: #adadad;
+}
+
+input#email {
+  border: none;
+}
+
+input#organisation {
+  border: none;
+}
+
+input#name {
+  border: none;
 }
 
 .form-group {
