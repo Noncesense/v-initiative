@@ -327,3 +327,47 @@ input#name {
   text-align: right;
   padding-top: 60px;
 }
+
+@media only screen and (max-width: 1420px) {
+  .landing-background {
+    background-image: url('./images/Header_Image.png');
+    clip: rect(0, 200px, 200px, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .container {
+    width:80%;
+  }
+  .anchor {
+    display:none;
+  }
+
+  .section {
+    text-align: center;
+  }
+
+  .footer {
+    padding: 0px !important;
+  }
+
+  .footer h4 {
+    font-size:20px;
+  }
+
+  .contact div.container {
+    margin: 0px;
+    text-align: center;
+    margin:auto;
+  }
+
+  .newsletter form {
+    margin:auto;
+  }
+}
