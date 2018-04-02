@@ -231,29 +231,38 @@ div.title {
   color: #8b9ea9;
 }
 
-
 form {
   width: 80%;
   margin:auto;
-  margin-top: 7%;
+  margin-top: 15%;
   margin-bottom: 7%;
 }
 
 .submit {
   border: 1px solid orange;
   color: #adadad;
+  font-size:10px;
 }
 
 input#email {
   border: none;
+  font-size: 8px;
+  background-color: #e8f1f6;
+  color: #5f7988 !important;
 }
 
 input#organisation {
   border: none;
+  font-size: 8px;
+  background-color: #e8f1f6;
+  color: #5f7988 !important;
 }
 
 input#name {
   border: none;
+  font-size: 8px;
+  background-color: #e8f1f6;
+  color: #5f7988 !important;
 }
 
 .form-group {
@@ -275,9 +284,9 @@ input#name {
 }
 
 .spread h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact {
@@ -307,6 +316,11 @@ input#name {
 
 .footer button{
   color: #3097de;
+}
+
+.footer h4 {
+  font-size: 30px;
+  line-height: 0.7;
 }
 
 .footer-buttons {

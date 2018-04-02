@@ -5,7 +5,7 @@ class Spread extends Component {
   render() {
     return (
       <div className='spread'>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='row section'>
             <div className='col-md-12 description'>
               <h4>Spread the word</h4>

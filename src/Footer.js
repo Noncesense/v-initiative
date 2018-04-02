@@ -12,12 +12,6 @@ class Footer extends Component {
               <h4>USA</h4>
             </div>
             <div className="col-md-6 col-sm-6 col-xs-6 footer-buttons">
-            <div>
-              <button className="btn btn-defualt">Get Directions</button>
-            </div>
-            <div>
-              <button className="btn btn-defualt">Check Out V-App</button>
-            </div>
             </div>
           </div>
         </div>
