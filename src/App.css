@@ -305,7 +305,7 @@ input#name {
 
 .footer-background {
   background-image: url('./images/Header_Image.png');
-  clip: rect(0, 200px, 200px, 0);
+  clip: rect(0, 100px, 100px, 0);
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -325,4 +325,5 @@ input#name {
 
 .footer-buttons {
   text-align: right;
+  padding-top: 60px;
 }

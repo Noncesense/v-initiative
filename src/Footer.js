@@ -12,6 +12,7 @@ class Footer extends Component {
               <h4>USA</h4>
             </div>
             <div className="col-md-6 col-sm-6 col-xs-6 footer-buttons">
+              <h5>Copyright V-Initiative© 2014</h5>
             </div>
           </div>
         </div>
