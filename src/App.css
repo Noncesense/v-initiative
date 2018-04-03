@@ -341,12 +341,9 @@ input#name {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 800px) {
   .container {
     width:80%;
-  }
-  .anchor {
-    display:none;
   }
 
   .section {
@@ -369,5 +366,11 @@ input#name {
 
   .newsletter form {
     margin:auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+   .anchor {
+    display:none;
   }
 }
